@@ -139,17 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CActuador.h" />
+    <ClInclude Include="CArea.h" />
+    <ClInclude Include="CConsigna.h" />
     <ClInclude Include="CHotel.h" />
     <ClInclude Include="CMedida.h" />
     <ClInclude Include="CSensor.h" />
-    <ClInclude Include="CTipoMedida.h" />
+    <ClInclude Include="CTipoValor.h" />
     <ClInclude Include="CValue.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CActuador.cpp" />
+    <ClCompile Include="CArea.cpp" />
+    <ClCompile Include="CConsigna.cpp" />
     <ClCompile Include="CHotel.cpp" />
     <ClCompile Include="CMedida.cpp" />
     <ClCompile Include="CSensor.cpp" />
-    <ClCompile Include="CTipoMedida.cpp" />
+    <ClCompile Include="CTipoValor.cpp" />
     <ClCompile Include="CValue.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

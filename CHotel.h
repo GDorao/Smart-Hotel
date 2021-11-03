@@ -1,17 +1,17 @@
 #pragma once
 class CHotel{
 	private:
-		int m_id;
+		int m_id_hotel;
 
 	public:
 		CHotel();
-		CHotel(int id);
-		CHotel(const CHotel& hotel);
+		CHotel(int id_hotel);
+		CHotel(const CHotel &hotel);
 		//~CHotel();
 
 
 		//getters
-		int getID(void);
+		int getIdHotel(void);
 
 		
 };

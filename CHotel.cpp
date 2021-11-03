@@ -2,18 +2,18 @@
 
 
 CHotel::CHotel() {
-	m_id = 0;
+	m_id_hotel = 0;
 }
 
-CHotel::CHotel(int id) {
-	m_id = id;
+CHotel::CHotel(int id_hotel) {
+	m_id_hotel = id_hotel;
 }
 
-CHotel::CHotel(const CHotel &hotel) {
-	m_id = hotel.m_id;
+CHotel::CHotel(const CHotel& hotel) {
+	m_id_hotel = hotel.m_id_hotel;
 }
 
 
-int CHotel::getID(void) {
-	return m_id;
+int CHotel::getIdHotel(void) {
+	return m_id_hotel;
 }
