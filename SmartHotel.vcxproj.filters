@@ -18,9 +18,6 @@
     <ClInclude Include="CHotel.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="CValue.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="CMedida.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
@@ -39,12 +36,15 @@
     <ClInclude Include="CArea.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="CValueMedida.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CValueConsigna.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CHotel.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="CValue.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="CMedida.cpp">
@@ -63,6 +63,12 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="CArea.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CValueMedida.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CValueConsigna.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
