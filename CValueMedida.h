@@ -23,7 +23,7 @@ public:
 	float getValue(void);
 	time_t getTimeStamp(void);
 	int getIdSensor(void);
-	int getTipoMedida(void);
+	int getIdMedida(void);
 	
 	//setters
 	void setValue(float value);

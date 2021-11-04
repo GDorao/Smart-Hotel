@@ -42,6 +42,18 @@
     <ClInclude Include="CValueConsigna.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="CTipoSensor.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CTipoActuador.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CDatoAPI.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CValueAPI.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CHotel.cpp">
@@ -69,6 +81,18 @@
       <Filter>Archivos de origen</Filter>
     </ClCompile>
     <ClCompile Include="CValueConsigna.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CTipoSensor.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CTipoActuador.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CDatoAPI.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="CValueAPI.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>

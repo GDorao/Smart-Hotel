@@ -38,7 +38,7 @@ int CValueConsigna::getIdActuador(void) {
 	return m_id_actuador;
 }
 
-int CValueConsigna::getTipoConsigna(void) {
+int CValueConsigna::getIdConsigna(void) {
 	return m_id_consigna;
 }
 

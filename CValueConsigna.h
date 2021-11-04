@@ -23,7 +23,7 @@ public:
 	float getValue(void);
 	time_t getTimeStamp(void);
 	int getIdActuador(void);
-	int getTipoConsigna(void);
+	int getIdConsigna(void);
 
 	//setters
 	void setValue(float value);

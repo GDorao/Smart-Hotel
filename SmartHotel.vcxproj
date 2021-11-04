@@ -142,10 +142,14 @@
     <ClInclude Include="CActuador.h" />
     <ClInclude Include="CArea.h" />
     <ClInclude Include="CConsigna.h" />
+    <ClInclude Include="CDatoAPI.h" />
     <ClInclude Include="CHotel.h" />
     <ClInclude Include="CMedida.h" />
     <ClInclude Include="CSensor.h" />
+    <ClInclude Include="CTipoActuador.h" />
+    <ClInclude Include="CTipoSensor.h" />
     <ClInclude Include="CTipoValor.h" />
+    <ClInclude Include="CValueAPI.h" />
     <ClInclude Include="CValueConsigna.h" />
     <ClInclude Include="CValueMedida.h" />
   </ItemGroup>
@@ -153,10 +157,14 @@
     <ClCompile Include="CActuador.cpp" />
     <ClCompile Include="CArea.cpp" />
     <ClCompile Include="CConsigna.cpp" />
+    <ClCompile Include="CDatoAPI.cpp" />
     <ClCompile Include="CHotel.cpp" />
     <ClCompile Include="CMedida.cpp" />
     <ClCompile Include="CSensor.cpp" />
+    <ClCompile Include="CTipoActuador.cpp" />
+    <ClCompile Include="CTipoSensor.cpp" />
     <ClCompile Include="CTipoValor.cpp" />
+    <ClCompile Include="CValueAPI.cpp" />
     <ClCompile Include="CValueConsigna.cpp" />
     <ClCompile Include="CValueMedida.cpp" />
   </ItemGroup>

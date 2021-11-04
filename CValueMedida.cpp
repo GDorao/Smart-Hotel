@@ -38,7 +38,7 @@ int CValueMedida::getIdSensor(void) {
 	return m_id_sensor;
 }
 
-int CValueMedida::getTipoMedida(void) {
+int CValueMedida::getIdMedida(void) {
 	return m_id_medida;
 }
 
