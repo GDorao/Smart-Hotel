@@ -6,13 +6,15 @@ CValueConsigna::CValueConsigna() {
 	m_value = 0;
 	m_id_actuador = 0;
 	m_id_consigna = 0;
+	m_id_hotel = 0;
 }
 
-CValueConsigna::CValueConsigna(time_t timestamp, float value, int id_actuador, int id_consigna) {
+CValueConsigna::CValueConsigna(time_t timestamp, float value, int id_actuador, int id_consigna, int id_hotel) {
 	m_timestamp = timestamp;
 	m_value = value;
 	m_id_actuador = id_actuador;
 	m_id_consigna = id_consigna;
+	m_id_hotel = id_hotel;
 }
 
 CValueConsigna::CValueConsigna(const CValueConsigna& value) {
@@ -20,6 +22,7 @@ CValueConsigna::CValueConsigna(const CValueConsigna& value) {
 	m_value = value.m_value;
 	m_id_actuador = value.m_id_actuador;
 	m_id_consigna = value.m_id_consigna;
+	m_id_hotel = value.m_id_hotel;
 }
 
 
@@ -42,9 +45,11 @@ int CValueConsigna::getIdConsigna(void) {
 	return m_id_consigna;
 }
 
+int CValueConsigna::getIdHotel(void) {
+	return m_id_hotel;
+}
 
 //setters
 void CValueConsigna::setValue(float value) {
 	m_value = value;
 }
-
